@@ -70,9 +70,24 @@ a {
   z-index: 2;
 }
 
+.mission-bar h2{
+  margin: 0;
+  padding: 0 0 20px;
+
+}
+
+
+.mission-bar h4 {
+  margin: 0;
+  padding: 0;
+}
+
 /* Tea of the Month Section */
 
+.tea-flex {
+  display: flex;
 
+}
 
 
 /* Locations Section */
