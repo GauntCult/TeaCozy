@@ -7,6 +7,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  align-items: center;
 }
 
 header {
@@ -19,12 +20,12 @@ header {
   text-align: right;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   overflow: hidden;
 }
 
 header nav {
-  align-text: right;
+  text-align: right;
   z-index: 2;
   color: seashell;
 }
@@ -36,7 +37,7 @@ a {
 
 .logo {
   margin-left: 10px;
-  margin-right: 940px;
+  margin-right: 900px;
   height: 50px;
 }
 
@@ -76,7 +77,6 @@ a {
 
 }
 
-
 .mission-bar h4 {
   margin: 0;
   padding: 0;
@@ -86,9 +86,21 @@ a {
 
 .tea-flex {
   display: flex;
-
+  flex-wrap: wrap;
+  padding: 5px;
 }
 
+.tea-flex img {
+  height: 200px;
+  margin: 10px;
+}
+
+.item span {
+
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
 
 /* Locations Section */
 
