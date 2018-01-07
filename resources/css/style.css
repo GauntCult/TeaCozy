@@ -84,47 +84,44 @@ a {
 
 /* Tea of the Month Section */
 
-.tea-flex {
+.outer-frame {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flex-parent {
   display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 5px;
-  width: 1000px;
+  flex-flow: wrap;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
 }
 
-.tea-flex img {
-  display: flex;
-  height: 200px;
-  margin: 10px;
+.flex-child {
+  margin-bottom: 20px;
+  margin: 5px;
 }
 
-.tea-flex span {
-  display: flex;
-  padding: 5px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.tea-boxes {
-  display: flex;
-  padding: 5px;
+.flex-child img {
+  max-width: 300px;
 }
 
 /* Locations Section */
 
 .location {
-  display: grid;
-  grid-row: auto;
+  display: inline-flex;
+  align-content: center;
   height: 500px;
-  width: 1000px;
+  width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
 }
 
 .location-box {
   width: 300px;
   height: 300px;
-  padding-top: 15px;
-  padding-right: 40px;
+  margin: 40px;
   background-color: black;
 
 }
