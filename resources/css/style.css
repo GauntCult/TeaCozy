@@ -87,6 +87,7 @@ a {
 .outer-frame {
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .flex-parent {
@@ -108,22 +109,51 @@ a {
   max-width: 300px;
 }
 
+
 /* Locations Section */
 
-.location {
+.location-parent {
   display: inline-flex;
-  align-content: center;
-  height: 500px;
-  width: 1200px;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  max-height: 500px;
+  padding: 0;
+  margin: 0;
+  min-width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
 }
 
-.location-box {
-  width: 300px;
-  height: 300px;
-  margin: 40px;
-  background-color: black;
-
+.location-header {
+  width: 100%;
+  padding: 0 !important;
+  height: 0 !important;
 }
 
+.location-child {
+  width: 300px;
+  height: 300px;
+  margin-right: 40px !important;
+  margin-top: 15px !important;
+  opacity: 1;
+  background-color: black;
+  margin-bottom: 0px !important;
+  justify-content: center;
+}
+.location-child p {
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
 /* Footer Section */
+
+.footer-div {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+}
